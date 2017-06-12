@@ -15,7 +15,7 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
@@ -24,11 +24,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brand</a>
+                <a class="navbar-brand col-xs-8" href="#"><img src="./assets/img/original.png" alt="rossman-legal-logo" id="logo"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right" id="links">
                     <li><a href="#">Link</a></li>
                     <li><a href="#">Link</a></li>
                 </ul>
@@ -36,7 +36,7 @@
         </div>
     </nav>
     <!-- Banner image -->
-    <img src="assets/img/lawfirm-logo.jpeg" alt="rossman-legal-logo">
+    <img src="assets/img/cover-photo.jpg" alt="team-logo" id="cover-photo">
     <!-- Jumbotron -->
     <div class="jumbotron">
         <div class="container">
@@ -44,25 +44,48 @@
             <p>Our mission statement is to Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque totam molestiae at repellendus corrupti sapiente cum incidunt esse optio. Quod quos voluptatibus, cum obcaecati! Veniam debitis aliquid, asperiores!</p>
         </div>
     </div>
-    <div class="container marketing">
-        <!-- START THE FEATURETTES -->
+    <div class="container-fluid marketing">
+        <!-- START THE BIO -->
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-circle" src="./assets/img/rossman-crop.png">
+                <h2>Gregg Rossman</h2>
+                <p>Gregg Rossman is an accomplished litigator with over 20 years of trial experience. As an assistant State Attorney, he has tried some of the most complicated and high profile cases in Broward County. Many of those cases have been featured in the local and national media. Gregg has been interviewed by ABC News on Good Morning America, CBS4 Miami, NBC6 Miami, WSVN7, WPLG10 Miami, and the Wall Street Journal, Sun-Sentinel and Miami Herald newspapers. Gregg has strong ties and connections in the law enforcement community. He is a second generation Miamian who has deep roots in the South Florida community.</p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-sm-4">
+                <img class="img-circle" src="./assets/img/spano-crop.png">
+                <h2>Mike Spano</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-sm-4">
+                <img class="img-circle" src="./assets/img/fischer-crop.png">
+                <h2>Alexander Fischer</h2>
+                <p>After trying over 40 criminal jury trials, Alexander Fischer transitioned to the civil side of law. Continuing to use his courtroom skills and experience, Alexander handles business and contract litigation for Rossman Legal. Before becoming an associate, Alexander was an Assistant State Attorney in Broward County for just under 6 years. While at the State Attorney’s Office, Alexander moved up quickly through the ranks and became a Felony Trial Unit Supervisor after just four years. While in that position, Alexander was in charge of supervising up to twelve felony attorneys and also handled cases in Miami and Palm Beach counties under Executive Assignment from the Governor. Alexander earned his Bachelor of Arts and Juris Doctorate from the University of Florida. After spending seven years in Gainesville, FL working towards his degrees, Alexander moved back down to South Florida, where he was born and raised. While Alexander’s focus is on civil litigation, he also assists Partner Gregg Rossman in the representation of police departments in Broward County. Whether it is forfeiture work, legal advising, or officer training, Alexander’s prior experience allows for an easy transition into this field. Furthermore, Alexander excelled in handling real estate law and representing associations after leaving the State Attorney’s Office. The Firm, Rossman Legal, handles Business and Contract Litigation, Contract Law and Negotiation, Probate, Trusts and Estate work, and Police Representation.</p>
+            </div>
+            <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+        <!-- START FEATURETTES -->
+        <hr class="featurette-divider">
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <h2 class="featurette-heading">Experienced Trial Lawyers<span class="text-muted"></span></h2>
+                <p class="lead">Rossman Legal employs accomplished litigators with over 20 years of trial experience. They have tried some of the most complicated and high profile cases in Broward County.</p>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                <img class="featurette-image img-responsive center-block" src="./assets/img/jury_box.jpg" alt="Generic placeholder image">
             </div>
         </div>
         <hr class="featurette-divider">
         <div class="row featurette">
             <div class="col-md-7 col-md-push-5">
-                <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <h2 class="featurette-heading">Estate Planning, Trusts, Contracts<span class="text-muted"></span></h2>
+                <p class="lead">Rossman Legal's Estate Planning attorneys prepare Wills, Trusts, Medicaid Trusts, and can handle all your Probate issues.</p>
             </div>
             <div class="col-md-5 col-md-pull-7">
-                <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                <img class="featurette-image img-responsive center-block" src="./assets/img/business_law.jpg" alt="Generic placeholder image">
             </div>
         </div>
         <hr class="featurette-divider">
@@ -72,14 +95,14 @@
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                <img class="featurette-image img-responsive center-block" src="http://placehold.it/200x200" alt="Generic placeholder image">
             </div>
         </div>
-        <hr class="featurette-divider">
+        <hr id="last-hr">
         <!-- /END THE FEATURETTES -->
         <!-- Footer -->
-        <footer>
-            <div class="container">
+        <footer class="footer">
+            <div class="container" id="footer-container">
                 <div class="row">
                     <div class="col-md-8">
                         <h4>Disclaimer</h4>
@@ -96,8 +119,8 @@
                 </div>
             </div>
             <div class="footer-copyright">
-                <div class="container" id="copyright">
-                    <span>© 2017 Rossman Legal, LLC - All Rights Reserved</span>
+                <div class="container text-center" id="copyright">
+                    <span>© 2017 Rossman Legal - All Rights Reserved</span>
                 </div>
             </div>
         </footer>
